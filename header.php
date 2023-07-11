@@ -16,8 +16,22 @@
             <div class="paper-name-box">
                 <div class="weather"></div>
                 <div class="paper-name">
-                    <h1><?php echo get_bloginfo('name'); ?></h1>
+                    <a href="<?php echo site_url() ?>">
+                        <h1><?php echo get_bloginfo('name'); ?></h1>
+                    </a>
                 </div>
+                <div class="search-box">
+                    <img class="search-icon" src="<?php bloginfo('template_url'); ?>/assets/images/search-icon.svg" alt="🔍" />
+                </div>
+
+                <div class="search-box-container">
+                    <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
+                        <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search news', 'placeholder', 'textdomain'); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+                        <button type="submit" class="search-submit"><?php echo esc_html_x('Search', 'submit button', 'textdomain'); ?></button>
+                    </form>
+                </div>
+
+
             </div>
             <div class="paper-calendar">
                 <?php

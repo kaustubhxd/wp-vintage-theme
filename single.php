@@ -36,6 +36,11 @@
     <?php }
     } ?>
 
+    <?php comments_template() ?>
+
+
 </body>
 
 </html>
+
+<?php get_footer() ?>

@@ -19,7 +19,7 @@ if ($query->have_posts()) {
             <div>
                 <a href="<?php the_permalink(); ?>">
                     <img style="width: 100%;" src="<?php echo esc_url($image_url) ?>" alt="Featured Image" />
-                    <news-title>
+                    <news-title class="fp-left-news-title">
                         <?php the_title(); ?>
                     </news-title>
 

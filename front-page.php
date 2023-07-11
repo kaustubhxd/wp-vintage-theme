@@ -16,50 +16,7 @@ function xd_get_post($offset = 0, $limit = 1)
 <div>
     <div class="container">
         <div class="frontpage">
-            <div class="fp-cell fp-cell--1">
-                <div class="fp-cell fp-cell--A">
-                    <div class="side-news-wrap">
-                        <div class="news-details">
-                            <?php get_template_part(
-                                'template-parts/content',
-                                'home-post',
-                                array(
-                                    'type' => 'fp-left',
-                                    'sort-order' => '5',
-                                )
-                            ); ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="fp-cell fp-cell--B">
-                    <div class="side-news-wrap">
-                        <div class="news-details">
-                            <?php get_template_part(
-                                'template-parts/content',
-                                'home-post',
-                                array(
-                                    'type' => 'fp-left',
-                                    'sort-order' => '6',
-                                )
-                            ); ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="fp-cell fp-cell--C">
-                    <div class="side-news-wrap">
-                        <div class="news-details">
-                            <?php get_template_part(
-                                'template-parts/content',
-                                'home-post',
-                                array(
-                                    'type' => 'fp-left',
-                                    'sort-order' => '7',
-                                )
-                            ); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div class="fp-cell fp-cell--2">
                 <div class="fp-item">
                     <div class="center-news-wrap">
@@ -131,6 +88,50 @@ function xd_get_post($offset = 0, $limit = 1)
                                 array(
                                     'type' => 'fp-bottom',
                                     'sort-order' => '4',
+                                )
+                            ); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fp-cell fp-cell--1">
+                <div class="fp-cell fp-cell--A">
+                    <div class="side-news-wrap">
+                        <div class="news-details">
+                            <?php get_template_part(
+                                'template-parts/content',
+                                'home-post',
+                                array(
+                                    'type' => 'fp-left',
+                                    'sort-order' => '5',
+                                )
+                            ); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="fp-cell fp-cell--B">
+                    <div class="side-news-wrap">
+                        <div class="news-details">
+                            <?php get_template_part(
+                                'template-parts/content',
+                                'home-post',
+                                array(
+                                    'type' => 'fp-left',
+                                    'sort-order' => '6',
+                                )
+                            ); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="fp-cell fp-cell--C">
+                    <div class="side-news-wrap">
+                        <div class="news-details">
+                            <?php get_template_part(
+                                'template-parts/content',
+                                'home-post',
+                                array(
+                                    'type' => 'fp-left',
+                                    'sort-order' => '7',
                                 )
                             ); ?>
                         </div>
