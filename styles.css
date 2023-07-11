@@ -16,11 +16,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-@font-face {
-  font-family: 'Chomsky';
-  src: url('Chomsky.otf') format('truetype');
-  /* Replace 'font-file-name.ttf' with the actual filename and extension of your font file */
-}
 
 * {
   margin: 0;
@@ -941,4 +936,31 @@ a:active {
 }
 .comment-form-cookies-consent > label {
   margin-bottom: 0 !important;
+}
+
+/* 404 body */
+
+.not-found-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 200px;
+}
+
+.not-found-text{
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.not-found-home-button{
+  margin-top: 10px;
+  padding: 5px 20px;
+  font-family: 'EB Garamond';
+  font-size: 20px;
+  font-weight: 600;
 }
